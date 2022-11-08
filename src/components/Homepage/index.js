@@ -1,10 +1,12 @@
 import React from 'react'
-import Header from './header';
+import Homeheader from './Homeheader'
 
 const index = () => {
   return (
-    <Header/>
+    <div>
+      <Homeheader />
+    </div>
   )
 }
 
-export default index;
+export default index
